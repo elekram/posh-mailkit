@@ -1,5 +1,12 @@
 # Posh-Mailkit
-Send an email using PowerShell and MailKit
+Send an email using PowerShell and MailKit.
+
+Requires MimeKit and MailKit
+
+Install-Package -Name 'MimeKit' -Source "https://www.nuget.org/api/v2" -SkipDependencies
+
+Install-Package -Name 'MailKit' -Source "https://www.nuget.org/api/v2"
+
 
 ## Settings.json example
 ```json
